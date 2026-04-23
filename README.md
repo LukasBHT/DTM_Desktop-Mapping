@@ -1,6 +1,7 @@
 # DTM_Desktop-Mapping
 Mit Held der Karten
-<img width="20%" height="20%" alt="Mit Held der Karten" src="https://github.com/user-attachments/assets/a31066fc-72e5-4002-9d96-cd6e05e6e6f6" />
+
+<img width="10%" height="10%" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/ChatGPT%20Image%2023.%20Apr.%202026,%2016_33_29.png?raw=true" />
 
 ## EP 01 | Dasymetrische Choropletenkarten
 ### Vorteile und Nachteile der Methode
