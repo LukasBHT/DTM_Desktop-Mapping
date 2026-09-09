@@ -6,6 +6,7 @@ Willkommen zu meiner kleinen Reise durch das Modul **DTM – Desktop-Mapping**. 
 
 <img width="10%" height="10%" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/ChatGPT%20Image%2023.%20Apr.%202026,%2016_33_29.png?raw=true" />
 
+
 ## EP 01 | Dasymetrische Choropletenkarten
 
 ### Vor- und Nachteile der dasymetrischen Darstellung
@@ -22,6 +23,7 @@ Die Methode benötigt jedoch zusätzliche und möglichst aktuelle Daten zur Flä
 Zunächst wurden die Einwohnerzahlen den Berliner LOR-Planungsräumen zugeordnet und sowohl als absolute Werte als auch als Bevölkerungsdichte dargestellt. Für die dasymetrische Karte wurden die LOR anschließend mit den tatsächlichen Siedlungsflächen verschnitten. Die Einwohnerzahl jedes Planungsraums wurde auf dessen bewohnte Fläche bezogen und als Einwohner je Quadratkilometer Siedlungsfläche neu berechnet. Eine abgestufte Farbskala macht die so ermittelten Dichteunterschiede sichtbar.
 
 
+
 ## EP.02 | Gitterchoroplethenkarten
 
 ### Vor- und Nachteile der Methode
@@ -33,8 +35,8 @@ Gitterchoroplethenkarten fassen Punktdaten in gleich großen Flächen zusammen. 
 ### Umsetzung der Methode
 
 Die Kirschbaumstandorte aus dem Open-Data-Portal des Landes Berlin wurden mit einem Hexagongitter mit 500 Metern Seitenlänge überlagert. Anschließend wurde die Anzahl der erfassten Kirschbäume je Hexagon bestimmt und durch eine abgestufte Farbskala dargestellt. Zellen ohne Kirschbäume wurden ausgeblendet. Eine dunkle Hintergrundkarte sorgt dafür, dass die eingefärbten Hexagone deutlich hervortreten.
+#### Berlin blüht hier zunächst im Sechseck.
 
-Berlin blüht hier zunächst im Sechseck.
 
 
 ## EP.03 | Punktrasterkarten
@@ -47,7 +49,9 @@ Punktrasterkarten stellen zusammengefasste Werte durch Symbole an regelmäßig a
 
 ### Umsetzung der Methode
 
-Als Grundlage diente das Hexagongitter aus EP 02 mit den bereits ermittelten Kirschbaumzahlen. Statt die Gitterflächen einzufärben, wurde jeweils ein zentriertes Kirschblütensymbol dargestellt. Größe und Farbintensität wurden an die Anzahl der Kirschbäume angepasst: Je mehr Bäume im jeweiligen Bereich erfasst sind, desto größer und kräftiger erscheint die Blüte. Aus dem nüchternen Gitter wurde damit ein kleines kartographisches Blütenmeer.
+Als Grundlage diente das Hexagongitter aus EP 02 mit den bereits ermittelten Kirschbaumzahlen. Statt die Gitterflächen einzufärben, wurde jeweils ein zentriertes Kirschblütensymbol dargestellt. Größe und Farbintensität wurden an die Anzahl der Kirschbäume angepasst: Je mehr Bäume im jeweiligen Bereich erfasst sind, desto größer und kräftiger erscheint die Blüte.
+#### Aus dem nüchternen Gitter wurde damit ein kleines kartographisches Blütenmeer.
+
 
 
 ## EP.04 | Value-By-Alpha Mapping
@@ -63,6 +67,7 @@ Value-By-Alpha Mapping verbindet zwei Informationen in einer Darstellung: Die Fa
 Die Wahlergebnisse wurden mit den ungarischen Wahlkreisgeometrien verknüpft. Zunächst entstanden zwei Choroplethenkarten mit den prozentualen Stimmenanteilen von Fidesz und Tisza. Für die Value-By-Alpha-Karte erhielt jeder Wahlkreis die Farbe der siegreichen Partei. Eine unterschiedlich transparente weiße Überlagerung schwächt diese Farbe abhängig vom Stimmenvorsprung ab: Knappe Ergebnisse erscheinen blasser, deutliche Siege kräftiger. Alle drei Darstellungen wurden in einem gemeinsamen A3-Layout zusammengeführt.
 
 
+
 ## EP.05 | Ursprung-Ziel-Karten
 
 ### Vor- und Nachteile der Methode
@@ -74,6 +79,7 @@ Ursprung-Ziel-Karten machen räumliche Verbindungen zwischen einem Herkunftsort 
 ### Umsetzung der Methode
 
 Die UNHCR-Daten zu Geflüchteten aus dem Sudan wurden den jeweiligen Aufnahmeländern zugeordnet. Verbindungslinien verknüpfen den Sudan als Herkunftsland mit den Zielländern, ihre Farbabstufung stellt die Größenordnung der Flüchtlingszahlen dar. Die Aufnahmeländer wurden zusätzlich grün hervorgehoben. Eine auf den Sudan zentrierte orthographische Projektion sowie ein gestalteter Erdhintergrund bilden den räumlichen Rahmen der Karte.
+
 
 
 ## EP.06 | Tilemaps
@@ -88,7 +94,9 @@ Zum kartographischen Bauen dagegen umso mehr.
 ### Umsetzung der Methode
 
 Über Deutschland wurde ein regelmäßiges rechteckiges Gitter gelegt und auf die für die Darstellung benötigten Zellen begrenzt. Aus dem digitalen Höhenmodell wurde für jede Kachel die mittlere Geländehöhe ermittelt. Anschließend erhielten die Zellen eine abgestufte Höhenfärbung von Grün bis Orange sowie eine Gestaltung mit Noppen in Klemmbaustein-Optik. Das Ergebnis wurde als vollständiges A3-Kartenlayout ausgegeben.
-Ganz ohne schmerzhafte Bausteine auf dem Fußboden.
+
+#### Ganz ohne schmerzhafte Bausteine auf dem Fußboden.
+
 
 
 ## EP.07 | Animation in QGIS
@@ -105,7 +113,9 @@ Animierte Karten machen neben der räumlichen Verteilung auch die zeitliche Abfo
 ### Umsetzung der Methode
 
 Die ausgewählten Geminiden-Daten wurden in QGIS eingelesen und die Zeitangaben in ein nutzbares Datum-Zeit-Feld überführt. Mithilfe der zeitlichen Steuerung wurden die Meteorereignisse in minutengenauen Schritten eingeblendet. Leuchtende Symbole auf einer dunklen Hintergrundkarte heben die Sternschnuppen hervor, ein Zeitstempel ermöglicht die zeitliche Orientierung. Die Einzelbilder wurden als PNG exportiert und anschließend zu einer GIF-Animation zusammengesetzt.
-# Diesmal durfte sich auf der Karte etwas bewegen.
+
+#### Diesmal durfte sich auf der Karte etwas bewegen.
+
 
 
 ## EP.08 | Mesh-Daten
@@ -119,7 +129,8 @@ Mesh-Daten ermöglichen die Darstellung räumlich zusammenhängender und zeitlic
 ### Umsetzung der Methode
 
 Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS geladen. Das enthaltene Windfeld wurde mithilfe einer Strömungsdarstellung visualisiert und in Blau- und Gelbtönen gestaltet. Die wirbelnden Linien greifen die gewünschte Anmutung eines Gemäldes im Stil van Goghs auf. Für den gewählten Zeitraum wurden die Zeitschritte mit Titel, Zeitstempel und Impressum als Animation ausgegeben und zu einer GIF-Datei zusammengeführt
-# Wetterdaten mit einem Hauch Atelier.
+#### Wetterdaten mit einem Hauch Atelier.
+
 
 
 ## EP.09 | 3D-Gebäudemodelle
@@ -131,14 +142,13 @@ Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS 
 <img width="2338" height="1652" alt="image" src="https://github.com/user-attachments/assets/e8dd617b-1329-4b19-8bca-a041ad95e705" />
 
 ### Köln als 3D Modell
-<img width="2560" height="1303" alt="image" src="https://github.com/user-attachments/assets/04f6500c-a82d-49a8-9fae-0ee9c9898363" />
-<p style="font-size: 18px;">
 Kartenerstellung: Lukas Bollig, BHT, 2026
 Gebäudedaten und Luftbild: Land NRW – Geobasis NRW
 3D-Gebäudemodell und WMS-Orthophoto
 Datenlizenz Deutschland – Zero – Version 2.0
-</p>
+
 
 ### Umsetzung der Methode
 
-Für Düren wurden aus den LoD1-Gebäudedaten Grundrisse und zugehörige Gebäudehöhen aufbereitet. Die Grundrisse wurden in QGIS mit der 2,5D-Symbolisierung entsprechend ihrer Höhe aufgezogen und durch Dachfarben und Schatten räumlich hervorgehoben. Eine Hintergrundkarte ergänzt Straßen und Orientierungspunkte. Die zusätzliche 3D-Ansicht von Köln zeigt detailliertere Gebäude einschließlich ihrer Dachformen über einer Luftbildgrundlage. Zum Semesterabschluss ging es damit noch einmal in die Höhe.
+Für Düren wurden aus den LoD1-Gebäudedaten Grundrisse und zugehörige Gebäudehöhen aufbereitet. Die Grundrisse wurden in QGIS mit der 2,5D-Symbolisierung entsprechend ihrer Höhe aufgezogen und durch Dachfarben und Schatten räumlich hervorgehoben. Eine Hintergrundkarte ergänzt Straßen und Orientierungspunkte. Die zusätzliche 3D-Ansicht von Köln zeigt detailliertere Gebäude einschließlich ihrer Dachformen über einer Luftbildgrundlage. 
+#### Zum Semesterabschluss ging es damit noch einmal in die Höhe.
