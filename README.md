@@ -37,6 +37,5 @@ Zunächst wurden die Einwohnerzahlen den Berliner LOR-Planungsräumen zugeordnet
 ### EP.08 | Gitterchoroplethenkarten
 
 ### EP.09 | Gitterchoroplethenkarten
-https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/EP09_Koeln.png?raw=true
-EP09_Koeln.png
+<img width="2560" height="1303" alt="image" src="https://github.com/user-attachments/assets/04f6500c-a82d-49a8-9fae-0ee9c9898363" />
 
