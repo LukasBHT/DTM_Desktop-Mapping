@@ -21,21 +21,36 @@ Die Methode benötigt jedoch zusätzliche und möglichst aktuelle Daten zur Flä
 Zunächst wurden die Einwohnerzahlen den Berliner LOR-Planungsräumen zugeordnet und sowohl als absolute Werte als auch als Bevölkerungsdichte dargestellt. Für die dasymetrische Karte wurden die LOR anschließend mit den tatsächlichen Siedlungsflächen verschnitten. Die Einwohnerzahl jedes Planungsraums wurde auf dessen bewohnte Fläche bezogen und als Einwohner je Quadratkilometer Siedlungsfläche neu berechnet. Eine abgestufte Farbskala macht die so ermittelten Dichteunterschiede sichtbar.
 
 ### EP.02 | Gitterchoroplethenkarten
-
-
 <img width="2382" height="1684" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/BlossomBerlin.png?raw=true" />
-### EP.03 | Gitterchoroplethenkarten
+<img width="3308" height="2338" alt="image" src="https://github.com/user-attachments/assets/22e087e9-e498-43b2-9231-9dd364508df8" />
 
-### EP.04 | Gitterchoroplethenkarten
+### EP.03 | Punktrasterkarten
+<img width="3308" height="2338" alt="image" src="https://github.com/user-attachments/assets/b480aa72-086f-4f91-9142-d1ec7111ff3b" />
 
-### EP.05 | Gitterchoroplethenkarten
 
-### EP.06 | Gitterchoroplethenkarten
+### EP.04 | Value-By-Alpha Mapping
+<img width="3308" height="2338" alt="image" src="https://github.com/user-attachments/assets/27a450a5-f072-45f7-b2ab-4870f75a27e6" />
 
-### EP.07 | Gitterchoroplethenkarten
 
-### EP.08 | Gitterchoroplethenkarten
+### EP.05 | Ursprung-Ziel-Karten
+<img width="2338" height="1652" alt="image" src="https://github.com/user-attachments/assets/3ce957d3-63f8-471b-85c5-a5e8659f2023" />
 
-### EP.09 | Gitterchoroplethenkarten
+
+### EP.06 | Tilemaps
+<img width="2338" height="3308" alt="image" src="https://github.com/user-attachments/assets/7ad106fb-3506-43c5-8d52-e43e8aa4ea92" />
+
+
+### EP.07 | Animation in QGIS
+<img width="1009" height="781" alt="image" src="https://github.com/user-attachments/assets/e2761d43-6363-4033-8881-8031e0e35d92" />
+
+<img width="1600" height="1291" alt="image" src="https://github.com/user-attachments/assets/d885e6c7-47ab-495d-9920-8604182d1cc0" />
+
+
+
+### EP.08 | Mesh-Daten
+
+### EP.09 | 3D-Gebäudemodelle
+<img width="2338" height="1652" alt="image" src="https://github.com/user-attachments/assets/e8dd617b-1329-4b19-8bca-a041ad95e705" />
+
 <img width="2560" height="1303" alt="image" src="https://github.com/user-attachments/assets/04f6500c-a82d-49a8-9fae-0ee9c9898363" />
 
