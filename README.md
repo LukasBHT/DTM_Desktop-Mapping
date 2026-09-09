@@ -115,8 +115,10 @@ Zum kartographischen Bauen dagegen umso mehr.
 
 Animierte Karten machen neben der räumlichen Verteilung auch die zeitliche Abfolge von Ereignissen sichtbar. Bei den Geminiden lässt sich so verfolgen, wann und wo Meteore registriert wurden. Allerdings können kurze Ereignisse beim Betrachten leicht übersehen werden, und verschiedene Zeitpunkte sind schwer direkt vergleichbar. Die Wiedergabegeschwindigkeit beeinflusst den Eindruck zusätzlich. Außerdem zeigen die Daten nur erfasste Meteore: Unterschiede können auch durch Wetterbedingungen und die Verteilung der Beobachtungsstationen entstehen.
 
+### Perseiden-Schauer
 ![Animation der Geminiden 2023](EP07_perseiden_animation.gif)
 
+### Geminiden-Schauer
 ![Animation der Geminiden 2023](EP07_Geminiden_2023.gif)
 
 
