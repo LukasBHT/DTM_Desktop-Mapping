@@ -32,14 +32,16 @@ Gitterchoroplethenkarten fassen Punktdaten in gleich großen Flächen zusammen. 
 
 ### Umsetzung der Methode
 
-Die Kirschbaumstandorte aus dem Open-Data-Portal des Landes Berlin wurden mit einem Hexagongitter mit 500 Metern Seitenlänge überlagert. Anschließend wurde die Anzahl der erfassten Kirschbäume je Hexagon bestimmt und durch eine abgestufte Farbskala dargestellt. Zellen ohne Kirschbäume wurden ausgeblendet. Eine dunkle Hintergrundkarte sorgt dafür, dass die eingefärbten Hexagone deutlich hervortreten – Berlin blüht hier zunächst im Sechseck.
+Die Kirschbaumstandorte aus dem Open-Data-Portal des Landes Berlin wurden mit einem Hexagongitter mit 500 Metern Seitenlänge überlagert. Anschließend wurde die Anzahl der erfassten Kirschbäume je Hexagon bestimmt und durch eine abgestufte Farbskala dargestellt. Zellen ohne Kirschbäume wurden ausgeblendet. Eine dunkle Hintergrundkarte sorgt dafür, dass die eingefärbten Hexagone deutlich hervortreten.
+
+Berlin blüht hier zunächst im Sechseck.
 
 
 ## EP.03 | Punktrasterkarten
 
 ### Vor- und Nachteile der Methode
 
-Punktrasterkarten stellen zusammengefasste Werte durch Symbole an regelmäßig angeordneten Positionen dar. Unterschiedliche Symbolgrößen machen räumliche Schwerpunkte erkennbar, während zwischen den Symbolen die Hintergrundkarte sichtbar bleibt. Die Kirschblüten stellen außerdem einen direkten Bezug zum Thema her. Allerdings lassen sich genaue Mengen anhand komplexer Symbole nur schwer abschätzen. Große Symbole können sich überlagern; außerdem zeigen ihre Positionen die Gitterzellen und nicht die tatsächlichen Standorte einzelner Bäume.
+Punktrasterkarten stellen zusammengefasste Werte durch Symbole an regelmäßig angeordneten Positionen dar. Unterschiedliche Symbolgrößen machen räumliche Schwerpunkte erkennbar, während zwischen den Symbolen die Hintergrundkarte sichtbar bleibt. Die Kirschblüten stellen außerdem einen direkten Bezug zum Thema her. Allerdings lassen sich genaue Mengen anhand komplexer Symbole nur schwer abschätzen. Große Symbole können sich überlagern, außerdem zeigen ihre Positionen die Gitterzellen und nicht die tatsächlichen Standorte einzelner Bäume.
 
 <img width="3308" height="2338" alt="image" src="https://github.com/user-attachments/assets/b480aa72-086f-4f91-9142-d1ec7111ff3b" />
 
@@ -71,20 +73,22 @@ Ursprung-Ziel-Karten machen räumliche Verbindungen zwischen einem Herkunftsort 
 
 ### Umsetzung der Methode
 
-Die UNHCR-Daten zu Geflüchteten aus dem Sudan wurden den jeweiligen Aufnahmeländern zugeordnet. Verbindungslinien verknüpfen den Sudan als Herkunftsland mit den Zielländern; ihre Farbabstufung stellt die Größenordnung der Flüchtlingszahlen dar. Die Aufnahmeländer wurden zusätzlich grün hervorgehoben. Eine auf den Sudan zentrierte orthographische Projektion sowie ein gestalteter Erdhintergrund bilden den räumlichen Rahmen der Karte.
+Die UNHCR-Daten zu Geflüchteten aus dem Sudan wurden den jeweiligen Aufnahmeländern zugeordnet. Verbindungslinien verknüpfen den Sudan als Herkunftsland mit den Zielländern, ihre Farbabstufung stellt die Größenordnung der Flüchtlingszahlen dar. Die Aufnahmeländer wurden zusätzlich grün hervorgehoben. Eine auf den Sudan zentrierte orthographische Projektion sowie ein gestalteter Erdhintergrund bilden den räumlichen Rahmen der Karte.
 
 
 ## EP.06 | Tilemaps
 
 ### Vor- und Nachteile der Methode
 
-Tilemaps reduzieren geografische Strukturen auf regelmäßige Kacheln und schaffen dadurch eine übersichtliche, einprägsame Darstellung. In der Klemmbaustein-Optik wird Deutschlands Relief spielerisch zugänglich, während die Höhenfarben großräumige Unterschiede erkennen lassen. Durch die Vereinfachung gehen jedoch Details der Landesgrenze und des Geländes verloren. Die mittlere Höhe einer Kachel glättet einzelne Gipfel und Täler. Für eine präzise Geländeanalyse ist die Karte daher weniger geeignet – zum kartographischen Bauen dagegen umso mehr.
+Tilemaps reduzieren geografische Strukturen auf regelmäßige Kacheln und schaffen dadurch eine übersichtliche, einprägsame Darstellung. In der Klemmbaustein-Optik wird Deutschlands Relief spielerisch zugänglich, während die Höhenfarben großräumige Unterschiede erkennen lassen. Durch die Vereinfachung gehen jedoch Details der Landesgrenze und des Geländes verloren. Die mittlere Höhe einer Kachel glättet einzelne Gipfel und Täler. Für eine präzise Geländeanalyse ist die Karte daher weniger geeignet. 
+Zum kartographischen Bauen dagegen umso mehr.
 
 <img width="2338" height="3308" alt="image" src="https://github.com/user-attachments/assets/7ad106fb-3506-43c5-8d52-e43e8aa4ea92" />
 
 ### Umsetzung der Methode
 
-Über Deutschland wurde ein regelmäßiges rechteckiges Gitter gelegt und auf die für die Darstellung benötigten Zellen begrenzt. Aus dem digitalen Höhenmodell wurde für jede Kachel die mittlere Geländehöhe ermittelt. Anschließend erhielten die Zellen eine abgestufte Höhenfärbung von Grün bis Orange sowie eine Gestaltung mit Noppen in Klemmbaustein-Optik. Das Ergebnis wurde als vollständiges A3-Kartenlayout ausgegeben – ganz ohne schmerzhafte Bausteine auf dem Fußboden.
+Über Deutschland wurde ein regelmäßiges rechteckiges Gitter gelegt und auf die für die Darstellung benötigten Zellen begrenzt. Aus dem digitalen Höhenmodell wurde für jede Kachel die mittlere Geländehöhe ermittelt. Anschließend erhielten die Zellen eine abgestufte Höhenfärbung von Grün bis Orange sowie eine Gestaltung mit Noppen in Klemmbaustein-Optik. Das Ergebnis wurde als vollständiges A3-Kartenlayout ausgegeben.
+Ganz ohne schmerzhafte Bausteine auf dem Fußboden.
 
 
 ## EP.07 | Animation in QGIS
@@ -94,12 +98,14 @@ Tilemaps reduzieren geografische Strukturen auf regelmäßige Kacheln und schaff
 Animierte Karten machen neben der räumlichen Verteilung auch die zeitliche Abfolge von Ereignissen sichtbar. Bei den Geminiden lässt sich so verfolgen, wann und wo Meteore registriert wurden. Allerdings können kurze Ereignisse beim Betrachten leicht übersehen werden, und verschiedene Zeitpunkte sind schwer direkt vergleichbar. Die Wiedergabegeschwindigkeit beeinflusst den Eindruck zusätzlich. Außerdem zeigen die Daten nur erfasste Meteore: Unterschiede können auch durch Wetterbedingungen und die Verteilung der Beobachtungsstationen entstehen.
 
 ![Animation der Geminiden 2023](EP07_perseiden_animation.gif)
+
 ![Animation der Geminiden 2023](EP07_Geminiden_2023.gif)
 
 
 ### Umsetzung der Methode
 
-Die ausgewählten Geminiden-Daten wurden in QGIS eingelesen und die Zeitangaben in ein nutzbares Datum-Zeit-Feld überführt. Mithilfe der zeitlichen Steuerung wurden die Meteorereignisse in minutengenauen Schritten eingeblendet. Leuchtende Symbole auf einer dunklen Hintergrundkarte heben die Sternschnuppen hervor; ein Zeitstempel ermöglicht die zeitliche Orientierung. Die Einzelbilder wurden als PNG exportiert und anschließend zu einer GIF-Animation zusammengesetzt – diesmal durfte sich auf der Karte etwas bewegen.
+Die ausgewählten Geminiden-Daten wurden in QGIS eingelesen und die Zeitangaben in ein nutzbares Datum-Zeit-Feld überführt. Mithilfe der zeitlichen Steuerung wurden die Meteorereignisse in minutengenauen Schritten eingeblendet. Leuchtende Symbole auf einer dunklen Hintergrundkarte heben die Sternschnuppen hervor, ein Zeitstempel ermöglicht die zeitliche Orientierung. Die Einzelbilder wurden als PNG exportiert und anschließend zu einer GIF-Animation zusammengesetzt.
+# Diesmal durfte sich auf der Karte etwas bewegen.
 
 
 ## EP.08 | Mesh-Daten
@@ -108,11 +114,12 @@ Die ausgewählten Geminiden-Daten wurden in QGIS eingelesen und die Zeitangaben 
 
 Mesh-Daten ermöglichen die Darstellung räumlich zusammenhängender und zeitlich veränderlicher Größen wie Windfeldern. Strömungslinien machen deren Verlauf anschaulich und lassen großräumige Strukturen erkennen. Die Animation verdeutlicht zusätzlich die zeitliche Entwicklung. Eine dichte, künstlerische Darstellung kann jedoch die geografische Orientierung erschweren; genaue Geschwindigkeiten lassen sich ohne passende Legende kaum ablesen. Auch die räumliche und zeitliche Auflösung der Ausgangsdaten begrenzt den Detailgrad.
 
-animation
+![Animation der Geminiden 2023](EP08_Kyrill_komp.gif)
 
 ### Umsetzung der Methode
 
-Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS geladen. Das enthaltene Windfeld wurde mithilfe einer Strömungsdarstellung visualisiert und in Blau- und Gelbtönen gestaltet. Die wirbelnden Linien greifen die gewünschte Anmutung eines Gemäldes im Stil van Goghs auf. Für den gewählten Zeitraum wurden die Zeitschritte mit Titel, Zeitstempel und Impressum als Animation ausgegeben und zu einer GIF-Datei zusammengeführt – Wetterdaten mit einem Hauch Atelier.
+Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS geladen. Das enthaltene Windfeld wurde mithilfe einer Strömungsdarstellung visualisiert und in Blau- und Gelbtönen gestaltet. Die wirbelnden Linien greifen die gewünschte Anmutung eines Gemäldes im Stil van Goghs auf. Für den gewählten Zeitraum wurden die Zeitschritte mit Titel, Zeitstempel und Impressum als Animation ausgegeben und zu einer GIF-Datei zusammengeführt
+# Wetterdaten mit einem Hauch Atelier.
 
 
 ## EP.09 | 3D-Gebäudemodelle
@@ -123,7 +130,14 @@ Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS 
 
 <img width="2338" height="1652" alt="image" src="https://github.com/user-attachments/assets/e8dd617b-1329-4b19-8bca-a041ad95e705" />
 
+### Köln als 3D Modell
 <img width="2560" height="1303" alt="image" src="https://github.com/user-attachments/assets/04f6500c-a82d-49a8-9fae-0ee9c9898363" />
+<p style="font-size: 18px;">
+Kartenerstellung: Lukas Bollig, BHT, 2026
+Gebäudedaten und Luftbild: Land NRW – Geobasis NRW
+3D-Gebäudemodell und WMS-Orthophoto
+Datenlizenz Deutschland – Zero – Version 2.0
+</p>
 
 ### Umsetzung der Methode
 
