@@ -1,10 +1,20 @@
 # DTM_Desktop-Mapping
 ## Eine Reise durch das Semester
+<table>
+  <tr>
+    <td width="45%" valign="top">
 
 Willkommen zu meiner kleinen Reise durch das Modul **DTM – Desktop-Mapping**. Zwischen Daten, Farben, Symbolen und gelegentlichem QGIS-Chaos entstanden im Laufe des Semesters ganz unterschiedliche Karten. Diese Seite zeigt die einzelnen Etappen, Ergebnisse und Erkenntnisse – mit viel Freude am Kartengestalten und natürlich **powered by dem „Helden der Karten“**.
 
+    </td>
+    <td width="55%" valign="top">
 
 <img width="10%" height="10%" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/ChatGPT%20Image%2023.%20Apr.%202026,%2016_33_29.png?raw=true" />
+
+    </td>
+  </tr>
+</table>
+
 
 
 ## EP 01 | Dasymetrische Choropletenkarten
@@ -142,10 +152,15 @@ Der bereitgestellte GRIB-Datensatz zum Orkan Kyrill wurde als Netzlayer in QGIS 
 <img width="2338" height="1652" alt="image" src="https://github.com/user-attachments/assets/e8dd617b-1329-4b19-8bca-a041ad95e705" />
 
 ### Köln als 3D Modell
+
+<img width="2560" height="1303" alt="image" src="https://github.com/user-attachments/assets/bddca479-1b7a-43cd-b7e6-db7358ffd71b" />
+<p style="font-size: 18px;">
 Kartenerstellung: Lukas Bollig, BHT, 2026
 Gebäudedaten und Luftbild: Land NRW – Geobasis NRW
 3D-Gebäudemodell und WMS-Orthophoto
 Datenlizenz Deutschland – Zero – Version 2.0
+</p>
+
 
 
 ### Umsetzung der Methode
