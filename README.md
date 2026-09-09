@@ -1,18 +1,18 @@
-# DTM_Desktop-Mapping
+# DTM Desktop-Mapping
+
 ## Eine Reise durch das Semester
+
 <table>
-  <tr>
-    <td width="45%" valign="top">
-
-Willkommen zu meiner kleinen Reise durch das Modul **DTM – Desktop-Mapping**. Zwischen Daten, Farben, Symbolen und gelegentlichem QGIS-Chaos entstanden im Laufe des Semesters ganz unterschiedliche Karten. Diese Seite zeigt die einzelnen Etappen, Ergebnisse und Erkenntnisse – mit viel Freude am Kartengestalten und natürlich **powered by dem „Helden der Karten“**.
-
-    </td>
-    <td width="55%" valign="top">
-
-<img width="10%" height="10%" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/ChatGPT%20Image%2023.%20Apr.%202026,%2016_33_29.png?raw=true" />
-
-    </td>
-  </tr>
+<tr>
+<td width="65%" valign="top">
+<p>
+Willkommen zu meiner kleinen Reise durch das Modul <strong>DTM – Desktop-Mapping</strong>. Zwischen Daten, Farben, Symbolen und gelegentlichem QGIS-Chaos entstanden im Laufe des Semesters ganz unterschiedliche Karten. Diese Seite zeigt die einzelnen Etappen, Ergebnisse und Erkenntnisse – mit viel Freude am Kartengestalten und natürlich <strong>powered by dem „Helden der Karten“</strong>.
+</p>
+</td>
+<td width="35%" valign="middle" align="center">
+<img src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/ChatGPT%20Image%2023.%20Apr.%202026,%2016_33_29.png?raw=true" alt="Held der Karten" width="220">
+</td>
+</tr>
 </table>
 
 
