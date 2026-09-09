@@ -24,3 +24,10 @@ Zunächst wurden die Einwohnerzahlen den Berliner LOR-Planungsräumen zugeordnet
 
 
 <img width="2382" height="1684" alt="" src="https://github.com/LukasBHT/DTM_Desktop-Mapping/blob/main/BlossomBerlin.png?raw=true" />
+### EP.03 | Gitterchoroplethenkarten
+### EP.04 | Gitterchoroplethenkarten
+### EP.05 | Gitterchoroplethenkarten
+### EP.06 | Gitterchoroplethenkarten
+### EP.07 | Gitterchoroplethenkarten
+### EP.08 | Gitterchoroplethenkarten
+### EP.09 | Gitterchoroplethenkarten
